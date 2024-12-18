@@ -1,0 +1,20 @@
+Prove why is your solution considered fast(er)?
+
+-----------------------------------------------
+Constant Time Complexity for Max:
+
+The Max method in the Stack class returns the maximum value in constant time,O(1) , This is because the maximum value is updated and stored during each Push operation.
+
+
+
+
+Efficient Push Method:
+
+The Push method has a time complexity of O(1) for adding an element to the stack. Additionally, it updates the maximum value if the new element is greater than the current maximum.and the sum value after pop and push methods .  This ensures that the Max and main method remains efficient.
+
+
+
+
+Optimized Pop Method:
+
+The Pop method removes the last element in O(1) time. and recaculate the sum value , If the popped element is the current maximum, it recalculates the maximum by iterating through the remaining elements. This recalculation only occurs when necessary, ensuring that the Pop method is generally efficient.
